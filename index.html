@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Info Preview</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Upload a File</h2>
+        <input type="file" id="fileInput">
+        
+        <div id="infoBox" class="info-box">
+            <p><b>File Name:</b> <span id="fileName"></span></p>
+            <p><b>Size:</b> <span id="fileSize"></span></p>
+            <p><b>Type:</b> <span id="fileType"></span></p>
+            <p><b>Last Modified:</b> <span id="fileModified"></span></p>
+        </div>
+
+        <div id="preview" class="preview"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
